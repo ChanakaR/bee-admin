@@ -1,12 +1,6 @@
 #!/usr/bin/python
 
-import os
-import json
+from classes.ServerAdministrator import ServerAdministrator
 
-from classes.ServerAdmin import ServerAdmin
-
-# command = 'ls -la'
-# os.system(command)
-
-serverAdmin = ServerAdmin()
-serverAdmin.login("Artemis")
+serverAdmin = ServerAdministrator()
+serverAdmin.loginToServer("Artemis")
