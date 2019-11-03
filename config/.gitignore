@@ -1,3 +1,4 @@
 !.gitignore
 !servers.example
 servers.json
+env.json
