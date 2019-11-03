@@ -1,12 +1,11 @@
-from .JSONReaderTemplate import JSONReaderTemplate
+import os
+from ServerPool import ServerPool
 
-class ServerAdmin:
-    species = "bird"
-
-    def __init__(self):
-        self.jsonReader = JSONReaderTemplate()
+class ServerAdministrator:
     
-    def login(self,server_name):
+    def __init__(self):
+
+    def loginToServer(self,server_name):
         self.getServerDetails(server_name)
 
     def getServerDetails(self,server_name):
