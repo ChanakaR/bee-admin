@@ -1,0 +1,11 @@
+{
+    "ServerName1": {
+        "IP": "IPAddress",
+        "PORT": "SSH_Port"
+    },
+    "ServerName2": {
+        "IP": "IPAddress",
+        "PORT": "SSH_Port"
+    },
+
+}
