@@ -8,4 +8,4 @@ class JSONReaderTemplate:
         print file_full_path
         with open('./config/servers.json') as f :
             file_content = json.load(f)
-        print(file_content)
+        return file_content

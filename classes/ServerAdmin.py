@@ -10,6 +10,6 @@ class ServerAdmin:
         self.getServerDetails(server_name)
 
     def getServerDetails(self,server_name):
-        self.jsonReader.getJSONContent("servers.json")
+        self.server = self.jsonReader.getJSONContent("servers.json")
 
 
