@@ -1,5 +1,5 @@
-from ServerJSONReader import ServerJSONReader
-from Server import Server
+from .ServerJSONReader import ServerJSONReader
+from .Server import Server
 
 class ServerPool:
     def __init__(self):

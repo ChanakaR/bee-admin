@@ -1,4 +1,4 @@
-from JSONReaderTemplate import JSONReaderTemplate
+from .JSONReaderTemplate import JSONReaderTemplate
 
 class ServerJSONReader(JSONReaderTemplate):
     file_name = "servers.json"
